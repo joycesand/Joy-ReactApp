@@ -1,5 +1,5 @@
 {
-  "name": "navbar-dropdown-v1",
+  "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +14,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postinstall": "npm run build",
+    "dev": "webpack-dev-server --config webpack.dev.js",
     "test": "react-scripts test",
+    "lint": "eslint . --fix",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
