@@ -29,7 +29,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/'>How Sandiejoy works</Link>
+            <Link to='/'>How Sandiejoy Travel works</Link>
             <Link to='/'>Olypics</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
