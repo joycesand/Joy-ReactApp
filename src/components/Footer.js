@@ -7,14 +7,14 @@ function Footer() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
+        {/* <p className='footer-subscription-heading'>
           Join the Adventure newsletter to receive our best vacation deals
-        </p>
-        <p className='footer-subscription-text'>
+        </p> */}
+        {/* <p className='footer-subscription-text'>
           You can unsubscribe at any time.
-        </p>
+        </p> */}
         <div className='input-areas'>
-          <form>
+          {/* <form>
             <input
               className='footer-input'
               name='email'
@@ -22,50 +22,50 @@ function Footer() {
               placeholder='Your Email'
             />
             <Button buttonStyle='btn--outline'>Subscribe</Button>
-          </form>
+          </form> */}
         </div>
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          {/* <div class='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/'>How Sandiejoy Travel works</Link>
             <Link to='/'>Olypics</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
             <Link to='/'>Terms of Service</Link>
-          </div>
+          </div> */}
           <div class='footer-link-items'>
-            <h2>Host</h2>
+            {/* <h2>Host</h2>
             <Link to='/'>Host your home</Link>
             <Link to='/'>Host an Online Experience</Link>
             <Link to='/'>Host an Experience</Link>
             <Link to='/'>Responsible hosting</Link>
             <Link to='/'>Open Homes</Link>
-            <Link to='/'>Resource Center</Link>
+            <Link to='/'>Resource Center</Link> */}
           </div>
           <div class='footer-link-items'>
-            <h2>Community</h2>
+            {/* <h2>Community</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
             <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <Link to='/'>Sponsorships</Link> */}
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
+            {/* <h2>Videos</h2>
             <Link to='/'>Submit Video</Link>
             <Link to='/'>Ambassadors</Link>
             <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <Link to='/'>Influencer</Link> */}
           </div>
           <div class='footer-link-items'>
-            <h2>Social Media</h2>
+            {/* <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to='/'>Twitter</Link> */}
           </div>
         </div>
       </div>
@@ -73,11 +73,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              Sandiejoy
+              SandieProfile
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>Sandiejoy © 2020</small>
+          <small class='website-rights'>Sandieprofile © 2020</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
@@ -88,20 +88,20 @@ function Footer() {
               <i class='fab fa-facebook-f' />
             </Link>
             <Link
-              class='social-icon-link instagram'
-              to='/'
+              class='social-icon-link Github'
+              to='https://github.com/joycesand/'
               target='_blank'
-              aria-label='Instagram'
+              aria-label='GitHub'
             >
-              <i class='fab fa-instagram' />
+              <i class='fab fa-github' />
             </Link>
             <Link
-              class='social-icon-link youtube'
-              to='/'
+              class='social-icon-link linkedin'
+              to='https://www.linkedin.com/atim-joyce-sandra/88238a22'
               target='_blank'
-              aria-label='Youtube'
+              aria-label='LinkedIn'
             >
-              <i class='fab fa-youtube' />
+              <i class='fab fa-linkedin' />
             </Link>
             <Link
               class='social-icon-link twitter'
