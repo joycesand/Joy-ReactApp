@@ -45,10 +45,10 @@ function Footer() {
             <Link to='/'>Resource Center</Link> */}
           </div>
           <div class='footer-link-items'>
-            {/* <h2>Community</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
+            <h2>Contact</h2>
+            <Link to='/'>0776 735 678 / 0708 964 533</Link>
+            <Link to='/'>ajoycesandra@gmail.com</Link>
+            {/* <Link to='/'>Destinations</Link>
             <Link to='/'>Sponsorships</Link> */}
           </div>
         </div>

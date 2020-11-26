@@ -15,7 +15,7 @@ function Cards() {
             />
             <CardItem
               src='images/pop.jpg'
-              text='In the next Ten (10) years i would like to Mentor/ Inspire women and girls because it is through Mentorship/Inspiration that has made me who i am today. I believe alot of women out there are suffering in silence because they dont know how and where to begin life from and some of them end-up loosing their lives due to depression from a toxic relationship they are in. A woman needs to work and have their own money than forever being stay home mother and be mistreted so badly by a man.'
+              text='In the next Ten (10) years i would like to Mentor/ Inspire women and girls because it is through women Empowerment that has made me who i am today. I believe alot of women out there are suffering in silence because they dont know how and where to start life from and some of them end-up loosing their lives due to depression from a toxic relationship they are in. A woman needs to work and have their own money than forever being stay home mother and be mistreted so badly by a man.'
               
             />
           </ul>
