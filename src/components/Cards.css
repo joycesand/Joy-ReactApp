@@ -1,5 +1,6 @@
 .cards {
   padding: 4rem;
+  
   background: #fff;
 }
 
@@ -34,6 +35,8 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  height: 10%;
+  width: auto;
 }
 
 .cards__item__link {
@@ -96,7 +99,9 @@ h1 {
 }
 
 .cards__item__info {
-  padding: 20px 30px 30px;
+  padding: 30px 30px 30px;
+  height: 50%;
+  width: auto;
 }
 
 .cards__item__text {
@@ -107,7 +112,7 @@ h1 {
 
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
-    width: 84%;
+    width: 54%;
   }
 }
 
